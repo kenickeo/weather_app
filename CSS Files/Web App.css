@@ -1,0 +1,75 @@
+/*Web App*/
+
+html, body {
+
+	margin: 0px;
+	padding: 0px;
+	background: url('../Images/clouds.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
+.container {
+
+	max-width: 1000px;
+}
+
+.weather {
+
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.temperature {
+
+	position: relative;
+	left: -30px;
+}
+.temperature, .image,{
+
+	font-size:  30px;
+}
+
+#number {
+
+	position: relative;
+	left: 10px;
+	top: -43px;
+}
+
+.convert {
+     color: white;
+    background-color: #8f5c10;
+	padding: 20px 40px;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    left: 250px;
+}
+
+.convert:hover {
+
+
+	cursor: pointer;
+}
+
+.name {
+
+	position: relative;
+	left: 20px;
+}
+
+.location, .temperature, .weatherstate, #number {
+
+	font-size: 30px;
+}
+
+@media (max-width: 500px){
+
+	.convert  {
+        
+        width: 75%;
+		position: relative;
+		left: 50px;
+	}
+}
